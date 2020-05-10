@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-<head>
-  <meta charset="UTF-8" />
-  
-  <title>User Experience | Ayodeji</title>
-  
-  <meta name="description" content="" />
-  <meta name="keywords" value="" />
-  
-  <link rel="stylesheet" href="layout.css" type="text/css" />
-  
-  <script src="modernizr-1.5.min.js"> </script>
-</head>
-<body>
-  <section>
-    <h3>This is my first Git Project</h3>
-    
-    <?php
+<?php
 /*
  *  Simple full-stack web prototype for building a Twitter clone.
  */
@@ -175,14 +157,3 @@ while($row = mysqli_fetch_assoc($result)){
   $tweets[] = $row;
 }
 renderTweets($tweets);
-    
-  </section>
-  
-  
-  
-  <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-  <script>!window.jQuery && document.write('<script src="js/lib/jquery-1.4.2.min.js"><\/script>')</script>
-  <script src="js/site.js"></script>
-</body>
-</html>
